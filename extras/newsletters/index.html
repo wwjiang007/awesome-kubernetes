@@ -12,7 +12,7 @@
         <meta name="author" content="Ramit Surana">
       
       
-        <link rel="canonical" href="https://ramitsurana.github.io/awesome-kubernetes/guidelines/CONTRIBUTING/">
+        <link rel="canonical" href="https://ramitsurana.github.io/awesome-kubernetes/extras/newsletters/">
       
       
       
@@ -21,7 +21,7 @@
     
     
       
-        <title>CONTRIBUTING - Awesome Kubernetes</title>
+        <title>Newsletters - Awesome Kubernetes</title>
       
     
     
@@ -69,7 +69,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#contributing-guidelines" class="md-skip">
+        <a href="#newsletters" class="md-skip">
           Skip to content
         </a>
       
@@ -101,7 +101,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              CONTRIBUTING
+              Newsletters
             
           </span>
         </div>
@@ -538,7 +538,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../extras/conferences/" class="md-nav__link">
+      <a href="../conferences/" class="md-nav__link">
         Conferences
       </a>
     </li>
@@ -552,7 +552,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../extras/amazing-people/" class="md-nav__link">
+      <a href="../amazing-people/" class="md-nav__link">
         Amazing People
       </a>
     </li>
@@ -566,7 +566,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../extras/meetups/" class="md-nav__link">
+      <a href="../meetups/" class="md-nav__link">
         Meetups
       </a>
     </li>
@@ -580,7 +580,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../extras/social-media/" class="md-nav__link">
+      <a href="../social-media/" class="md-nav__link">
         Social Media
       </a>
     </li>
@@ -594,7 +594,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../extras/raspberry-pi/" class="md-nav__link">
+      <a href="../raspberry-pi/" class="md-nav__link">
         Raspberry Pi
       </a>
     </li>
@@ -628,62 +628,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#contribution-guidelines" class="md-nav__link">
-    Contribution Guidelines
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#test-your-change-locally" class="md-nav__link">
-    Test your change locally
-  </a>
-  
-    <nav class="md-nav" aria-label="Test your change locally">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#prerequisite" class="md-nav__link">
-    Prerequisite
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#verify-checks-as" class="md-nav__link">
-    Verify checks as:
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#quality-standard" class="md-nav__link">
-    Quality standard
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#minimum-criteria-of-submission" class="md-nav__link">
-    Minimum Criteria of Submission
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -701,49 +645,16 @@
 
 
 
-<h1 id="contributing-guidelines">Contributing Guidelines:<a class="headerlink" href="#contributing-guidelines" title="Permanent link">&para;</a></h1>
-<p>We appreciate and recognize all contributors.</p>
-<h2 id="contribution-guidelines">Contribution Guidelines<a class="headerlink" href="#contribution-guidelines" title="Permanent link">&para;</a></h2>
+<h1 id="newsletters">Newsletters<a class="headerlink" href="#newsletters" title="Permanent link">&para;</a></h1>
+<p><em>Newsletters with a focus on kubernetes.</em></p>
 <ul>
-<li>To add to the list: Submit a pull request</li>
-<li>To remove from the list: Submit a pull request</li>
-<li>Want to change something: Submit a pull request</li>
-<li>Want to try something else: Submit a pull request</li>
-<li>Don't know what to do: Submit a pull request</li>
-<li>Each item should be limited to one link</li>
-<li>The link should be the name of the package or project or website</li>
-<li>Descriptions should be clear and concise (read it out loud to be sure)</li>
-<li>Descriptions should follow the link, on the same line</li>
-<li>If you want to add more than one link, please don't do all PR on the exact same line, it usually results in conflicts and your PR cannot be automatically merged...</li>
-<li>Please contribute links to packages/projects you have used or are familiar with. This will help ensure high-quality entries.</li>
+<li><a href="https://www.cncf.io/kubeweekly/">KubeWeekly</a></li>
+<li><a href="http://lwkd.info/">Last Week in Kubernetes Development</a></li>
+<li><a href="https://learnk8s.io/learn-kubernetes-weekly">Learn Kubernetes weekly</a></li>
+<li><a href="https://kube.events/newsletter">Upcoming Kubernetes Events</a></li>
+<li><a href="https://kubelist.com/">Kubelist</a></li>
+<li><a href="https://www.learncloudnative.com/newsletter">Learn Cloud Native</a></li>
 </ul>
-<h2 id="test-your-change-locally">Test your change locally<a class="headerlink" href="#test-your-change-locally" title="Permanent link">&para;</a></h2>
-<h4 id="prerequisite">Prerequisite<a class="headerlink" href="#prerequisite" title="Permanent link">&para;</a></h4>
-<p>Ruby 2.0+</p>
-<h4 id="verify-checks-as">Verify checks as:<a class="headerlink" href="#verify-checks-as" title="Permanent link">&para;</a></h4>
-<pre><code>$ make test
-</code></pre>
-<p>In case the following error occours:</p>
-<pre><code>ERROR:  While executing gem ... (Gem::FilePermissionError)
-    You don't have write permissions for the /var/lib/gems/x.x.0 directory.
-Makefile:2: recipe for target 'awesome_bot' failed
-</code></pre>
-<p>Try:</p>
-<pre><code>$ sudo make test
-</code></pre>
-<h2 id="quality-standard">Quality standard<a class="headerlink" href="#quality-standard" title="Permanent link">&para;</a></h2>
-<p>To be on the list, it would be nice if entries adhere to these quality standards:</p>
-<ul>
-<li>Generally useful to the community</li>
-<li>Clearly "what is it" --&gt; which category it belongs : article, video, twitter account, etc.</li>
-<li>Clearly stating "what is it for": mention the problem it solves. Just try your best, make it clear for the next person</li>
-<li>Solves a real problem (even a small one)</li>
-<li>If it is a WIP (work in progress, not safe for production), mention it.</li>
-</ul>
-<h2 id="minimum-criteria-of-submission">Minimum Criteria of Submission<a class="headerlink" href="#minimum-criteria-of-submission" title="Permanent link">&para;</a></h2>
-<p>If you planning to add a new project, please ensure that it covers the minimum criteria mentioned here ==&gt; https://github.com/ramitsurana/awesome-kubernetes/blob/master/docs/guidelines/CRITERIA_OF_SUBMISSION.md</p>
-<hr />
-<p>Abstract adopted from <a href="https://github.com/veggiemonk/awesome-docker/blob/master/CONTRIBUTING.md">awesome-docker</a>.</p>
 
 
 
